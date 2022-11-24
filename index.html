@@ -381,7 +381,7 @@
           <h2>Підпишіться на розсилку</h2>
           <form>
             <input type="text" placeholder="E-mail">
-            <button type="button">Підписатися
+            <button type="submit">Підписатися
               <svg width="24" height="24">
                 <use href="./images/icons.svg#icon-linkedin"></use>
                 <use href="./images/icons.svg#"></use>
@@ -399,12 +399,12 @@
           <use href="./images/icons.svg#icon-closeblack"></use>
         </svg>
       </button>
-      <h2>Залиште свої дані, ми вам передзвонимо</h2>
-      <form>
-        <label>
-          Ім'я
-          <input type="text" />
-        </label>
+      <h2 class="forma-title">Залиште свої дані, ми вам передзвонимо</h2>
+      <form class="forma">
+        <input type="text" required class="forma-contact" />
+        <input type="tel" required class="forma-contact" />
+        <input type="email" required class="forma-contact" />
+        <textarea name="" id="" cols="30" rows="10" class="comment"></textarea>
       </form>
     </div>
   </div>

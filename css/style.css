@@ -757,6 +757,8 @@ body{
 .modal{
     position: absolute;
 
+    padding: 40px;
+
     width: 528px;
     min-height: 581px;
     background-color: #FFFFFF;
@@ -797,4 +799,29 @@ body{
 }
 .modal-btn:hover .modal-icon{
     fill: #2196F3;
+}
+
+.forma-title {
+    font-size: 20px;
+    line-height: 23px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #212121;
+}
+
+.forma{}
+
+.forma-contact{
+    width: 448px;
+    height: 40px;
+    border: 1px solid rgba(33, 33, 33, 0.2);
+    border-radius: 4px;
+}
+
+.comment{
+    width: 448px;
+    height: 120px;
+    border: 1px solid rgba(33, 33, 33, 0.2);
+    border-radius: 4px;
+    resize: none;
 }
