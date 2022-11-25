@@ -809,7 +809,20 @@ body{
     color: #212121;
 }
 
-.forma{}
+.forma{
+
+}
+
+.input-icons{
+    position: relative;
+}
+
+.input-icon{
+position: absolute;
+left: 12px;
+top: 50%;
+transform: translateY(-50%);
+}
 
 .forma-contact{
     width: 448px;
