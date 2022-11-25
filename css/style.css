@@ -842,8 +842,8 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
-
     cursor: pointer;
+   
 }
 
 .is-hidden{
@@ -853,7 +853,12 @@ body{
 }
 .modal-btn:hover .modal-icon{
     fill: #2196F3;
+    transition-property: fill;
+    transition-duration: 250ms;
+     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
+
+
 
 .forma-title {
     font-size: 20px;
@@ -863,9 +868,7 @@ body{
     color: #212121;
 }
 
-.forma{
-
-}
+.forma{}
 
 
 .input-icons{
@@ -892,13 +895,23 @@ body{
     padding-left: 42px;
 }
 
+.forma-contact:hover,
 .forma-contact:focus{
     border-color: #2196F3;
     outline:#2196F3;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.forma-contact:focus + .input-icon{
+.forma-contact:hover + .input-icon{
     fill: #1976d2;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+.forma-contact:focus+.input-icon{
+    fill: #1976d2;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .comment{
