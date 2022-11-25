@@ -618,7 +618,13 @@ body{
     margin-bottom: 20px;
 }
 
+.subscription-item{
+    display: flex;
+    align-items: center;
+}
+
 .input-subscription {
+    color: #FFFFFF;
     width: 358px;
     height: 50px;
     padding-left: 16px;
@@ -630,10 +636,13 @@ body{
     border-radius: 4px;
 }
 
-.input-subscription {}
+.input-subscription:focus{
+    border-color: rgba(255, 255, 255, 0.3);
+    outline: rgba(255, 255, 255, 0.3);
+    
+}
 
 .subscription-btn {
-
     margin-left: 12px;
     font-weight: 700;
     font-size: 16px;
