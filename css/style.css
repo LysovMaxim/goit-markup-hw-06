@@ -813,15 +813,24 @@ body{
 
 }
 
+.label-name{
+    font-size: 12px;
+    line-height: 14px;
+    letter-spacing: 0.01em;
+    color: #757575;
+}
+
 .input-icons{
     position: relative;
+    margin-top: 4px;
+    margin-bottom: 10px;
 }
 
 .input-icon{
-position: absolute;
-left: 12px;
-top: 50%;
-transform: translateY(-50%);
+   position: absolute;
+   left: 12px;
+   top: 50%;
+   transform: translateY(-50%);
 }
 
 .forma-contact{
@@ -832,6 +841,8 @@ transform: translateY(-50%);
 }
 
 .comment{
+margin-top: 4px;
+
     width: 448px;
     height: 120px;
     border: 1px solid rgba(33, 33, 33, 0.2);
