@@ -656,7 +656,8 @@ body{
     background: #2196F3;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
-    border-color: #2196F3;
+    border: 0px;
+    cursor: pointer;
 }
 
 .icone-subscription{
@@ -900,6 +901,7 @@ body{
     border: 1px solid rgba(33, 33, 33, 0.2);
     border-radius: 4px;
     padding-left: 42px;
+
 }
 
 .forma-contact:hover,
@@ -921,6 +923,20 @@ body{
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
+.forma-contact{
+    transition-property: border;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.input-icon{
+    transition-property: fill;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+
+
 .comment{
     margin-top: 4px;
 
@@ -932,11 +948,11 @@ body{
 }
 
 .label-name {
-
     font-size: 12px;
     line-height: 14px;
     letter-spacing: 0.01em;
     color: #757575;
+
 }
 
 .comment{
@@ -945,6 +961,10 @@ body{
     padding-right: 16px;
     padding-bottom: 12px;
     padding-left: 16px;
+
+    transition-property: border;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .comment::placeholder{
     font-size: 12px;
